@@ -2,7 +2,8 @@
 
 > **One-liner:** OblivIA cleans crypto noise and turns it into actionable market signals — so traders don’t drown in spam.
 
-OblivIA is an AI-powered pipeline that cleans noisy crypto chatter from social media (e.g. Reddit) and transforms it into structured **signals**.
+OblivIA is an AI-powered demo that processes noisy crypto chatter and outputs structured signals.  
+This MVP showcases the path from **raw discussion → clean data → simple signals**, highlighting narratives while filtering spam.
 
 ---
 
@@ -26,7 +27,7 @@ python tools/generate_dod_report_clean.py --demo
 
 ### Option B — PowerShell (Windows)
 ```powershell
-.	oolsun_dod_clean.ps1
+.\tools\run_dod_clean.ps1
 ```
 
 **Outputs**
