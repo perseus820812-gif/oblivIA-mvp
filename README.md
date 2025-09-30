@@ -1,44 +1,24 @@
-\# OblivIA: Turning Crypto Noise into Market Signals
+# OblivIA: Turning Crypto Noise into Market Signals
 
+> **One-liner:** OblivIA cleans crypto noise and turns it into actionable market signals — so traders don’t drown in spam.
 
-
-OblivIA is an AI-powered pipeline that cleans noisy crypto chatter from social media (e.g. Reddit) and transforms it into structured \*\*signals\*\*.  
-
-Our mission: help traders, researchers, and communities see \*\*signal over noise\*\*.
-
-
+OblivIA is an AI-powered pipeline that cleans noisy crypto chatter from social media (e.g. Reddit) and transforms it into structured **signals**.
 
 ---
 
-
-
-\## 🚀 Features (MVP)
-
-\- \*\*Data Cleaning\*\* – Remove spam, airdrops, and irrelevant text with custom filters.  
-
-\- \*\*Classification\*\* – Logistic Regression + TF-IDF baseline to detect real crypto content.  
-
-\- \*\*Signal Layer\*\* – Daily \& DoD (Day-over-Day) reports highlight emerging narratives.  
-
-\- \*\*Demo Mode\*\* – Run a sample pipeline with just one command.
-
-
+## 🚀 Features (MVP)
+- **Data Cleaning** – Remove spam, airdrops, and irrelevant text with simple, reproducible filters (demo).
+- **Classification** – Logistic Regression + TF-IDF baseline (concept showcased in demo).
+- **Signal Layer** – Daily & DoD (Day-over-Day) style outputs to surface emerging narratives.
+- **Demo Mode** – One command generates a sample HTML + CSV report.
 
 ---
 
+## ⚡ Quick Start
 
-
-\## ⚡ Quick Start
-
-Clone the repo and install dependencies:
-
+### Option A — Python
 ```bash
-
 git clone https://github.com/perseus820812-gif/oblivIA-mvp.git
-
 cd oblivIA-mvp
-
 pip install -r requirements.txt
-
-
-
+python tools/generate_dod_report_clean.py --demo
